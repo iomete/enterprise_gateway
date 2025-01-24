@@ -3,7 +3,7 @@ updates:
   # Set update schedule for GitHub Actions
   - package-ecosystem: "github-actions"
     directory: "/"
-    open-pull-requests-limit: 15
+    open-pull-requests-limit: 10
     schedule:
       # Check for updates to GitHub Actions once a week (Mondays by default)
       interval: "weekly"
